@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="John Paul B. Palarca's Database Developer Portfolio">
+
+    <title>John Paul B. Palarca | Database Developer</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="site-header">
+
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <!-- LOGO IMAGE -->
+            <a href="#home" class="logo">
+                <img src="images/logo.png"
+                     alt="John Paul Palarca Logo">
+            </a>
+
+            <!-- NAVIGATION LINKS -->
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        HELLO, WELCOME TO MY PORTFOLIO
+                    </p>
+
+                    <h1>
+                        John Paul B. Palarca
+                    </h1>
+
+                    <h2>
+                        Aspiring Database Developer
+                    </h2>
+
+                    <p class="hero-description">
+                        I build organized, reliable, and efficient
+                        database solutions that help manage information
+                        and turn data into meaningful results.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Projects
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PERSONAL PHOTOGRAPH -->
+                <div class="hero-image">
+
+                    <img src="images/profile.jpg"
+                         alt="Personal photograph of John Paul B. Palarca"
+                         class="profile-photo">
+
+                    <div class="image-label">
+                        <span class="status-dot"></span>
+                        Future Database Developer
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-down">
+                Discover More ↓
+            </a>
+
+        </section>
+
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about" class="section about-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">GET TO KNOW ME</p>
+
+                    <h2>About Me</h2>
+
+                    <p>
+                        A student with a passion for technology,
+                        databases, and continuous learning.
+                    </p>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <div class="about-card">
+
+                        <div class="about-icon">01</div>
+
+                        <h3>Who I Am</h3>
+
+                        <p>
+                            Hello! I'm John Paul B. Palarca, an aspiring
+                            Database Developer interested in organizing,
+                            managing, and protecting information through
+                            effective database solutions. I am developing
+                            my technical skills and learning how databases
+                            support real-world applications.
+                        </p>
+
+                        <p>
+                            My goal is to create structured, accurate,
+                            and efficient database systems that make
+                            information easier to store, retrieve,
+                            and manage. I believe that continuous learning,
+                            patience, and problem-solving are important
+                            in becoming a successful IT professional.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-card highlight-card">
+
+                        <div class="about-icon">02</div>
+
+                        <h3>My Career Goal</h3>
+
+                        <p>
+                            My goal is to become a skilled Database
+                            Developer who can design database structures,
+                            write SQL queries, maintain data integrity,
+                            and develop reliable information systems.
+                            I want to gain practical experience and
+                            continuously improve my knowledge of
+                            database technologies.
+                        </p>
+
+                        <div class="goal-tags">
+                            <span>Database Design</span>
+                            <span>Data Management</span>
+                            <span>Continuous Learning</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section skills-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">WHAT I AM LEARNING</p>
+
+                    <h2>My Skills</h2>
+
+                    <p>
+                        Database and technical skills I am developing
+                        for my future career.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">🗄️</div>
+
+                        <h3>Database Management</h3>
+
+                        <p>
+                            Organizing, storing, and maintaining
+                            structured information.
+                        </p>
+
+                        <span class="skill-category">
+                            DATABASE
+                        </span>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">⌨️</div>
+
+                        <h3>SQL Queries</h3>
+
+                        <p>
+                            Learning to retrieve, insert, update,
+                            and delete database records using SQL.
+                        </p>
+
+                        <span class="skill-category">
+                            QUERYING
+                        </span>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">📊</div>
+
+                        <h3>Database Design</h3>
+
+                        <p>
+                            Creating tables, defining relationships,
+                            and organizing data logically.
+                        </p>
+
+                        <span class="skill-category">
+                            STRUCTURE
+                        </span>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">🔗</div>
+
+                        <h3>ER Diagrams</h3>
+
+                        <p>
+                            Visualizing entities, attributes,
+                            and relationships in a database.
+                        </p>
+
+                        <span class="skill-category">
+                            MODELING
+                        </span>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">🐬</div>
+
+                        <h3>MySQL</h3>
+
+                        <p>
+                            Learning how to create databases,
+                            manage tables, and work with records.
+                        </p>
+
+                        <span class="skill-category">
+                            DATABASE TOOL
+                        </span>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">🛡️</div>
+
+                        <h3>Data Integrity</h3>
+
+                        <p>
+                            Understanding primary keys, foreign keys,
+                            and rules that keep data consistent.
+                        </p>
+
+                        <span class="skill-category">
+                            DATA QUALITY
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section projects-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">MY WORK AND PRACTICE</p>
+
+                    <h2>Featured Projects</h2>
+
+                    <p>
+                        Sample database projects that demonstrate
+                        my learning and development goals.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <!-- PROJECT 1 -->
+                    <article class="project-card">
+
+                        <div class="project-number">PROJECT 01</div>
+
+                        <div class="project-icon">🎓</div>
+
+                        <h3>Student Record Management System</h3>
+
+                        <p>
+                            A database system concept for storing
+                            student information, student numbers,
+                            courses, sections, and academic records
+                            in organized tables.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                            <span>Database Design</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Discuss This Project ↗
+                        </a>
+
+                    </article>
+
+
+                    <!-- PROJECT 2 -->
+                    <article class="project-card">
+
+                        <div class="project-number">PROJECT 02</div>
+
+                        <div class="project-icon">📦</div>
+
+                        <h3>Inventory Management Database</h3>
+
+                        <p>
+                            A database project concept for tracking
+                            products, available stocks, suppliers,
+                            and inventory transactions to help
+                            organize product information.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>SQL</span>
+                            <span>MySQL</span>
+                            <span>Relationships</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Discuss This Project ↗
+                        </a>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+                    <article class="project-card">
+
+                        <div class="project-number">PROJECT 03</div>
+
+                        <div class="project-icon">💰</div>
+
+                        <h3>Personal Expense Tracker Database</h3>
+
+                        <p>
+                            A database concept for recording expenses,
+                            organizing transactions by category,
+                            and generating summaries of personal
+                            spending.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>SQL</span>
+                            <span>Data Organization</span>
+                            <span>Queries</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Discuss This Project ↗
+                        </a>
+
+                    </article>
+
+
+                    <!-- PROJECT 4 -->
+                    <article class="project-card">
+
+                        <div class="project-number">PROJECT 04</div>
+
+                        <div class="project-icon">📚</div>
+
+                        <h3>Library Management Database</h3>
+
+                        <p>
+                            A database concept for managing books,
+                            member records, borrowing transactions,
+                            and return dates using related tables.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>MySQL</span>
+                            <span>ER Diagram</span>
+                            <span>Data Modeling</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Discuss This Project ↗
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <p class="project-note">
+                    Note: These are sample project concepts.
+                    Replace them with your actual projects as you
+                    complete and develop them.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section contact-section">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <p class="section-label">LET'S CONNECT</p>
+
+                    <h2>Have a Project in Mind?</h2>
+
+                    <p class="contact-description">
+                        I'm always interested in learning, sharing
+                        ideas, and connecting with people who value
+                        technology and database development.
+                        Feel free to reach out!
+                    </p>
+
+
+                    <a href="mailto:palarca.johnpaul2@gmail.com"
+                       class="btn btn-primary">
+                        Send Me an Email
+                    </a>
+
+
+                    <div class="contact-details">
+
+                        <p>
+                            <strong>Email:</strong>
+
+                            <a href="mailto:palarca.johnpaul2@gmail.com">
+                                palarca.johnpaul2@gmail.com
+                            </a>
+                        </p>
+
+                    </div>
+
+
+                    <!-- SOCIAL MEDIA LINKS -->
+                    <div class="social-links">
+
+                        <a href="https://www.facebook.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Facebook ↗
+                        </a>
+
+                        <a href="https://www.instagram.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Instagram ↗
+                        </a>
+
+                    </div>
+
+                    <p class="social-note">
+                        Replace the social media links above with
+                        your personal profile URLs.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="footer-logo">
+                John Paul<span>.</span>
+            </a>
+
+            <p>
+                © 2026 John Paul B. Palarca.
+                Personal Portfolio.
+            </p>
+
+            <a href="#home" class="back-to-top">
+                Back to Top ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
