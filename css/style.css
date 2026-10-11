@@ -364,7 +364,19 @@ background-color: var(--text);
 }
 
 .projects-section {
- background-color: var(--white);
+ background-image:
+        linear-gradient(
+            rgba(16, 36, 58, 0.85),
+            rgba(16, 36, 58, 0.85)
+        ),
+        url("images/contactbackground.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 80px 8%;
+    color: #d86f6f;
 }
 .projects-grid {
  display: grid;
