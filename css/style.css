@@ -512,7 +512,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
 
-    color: white;
+    color: rgb(124, 66, 66);
 }
 
 @media (max-width: 900px) {
