@@ -236,8 +236,10 @@ nav a:hover {
  margin-bottom: 12px;
 }
 
-.about {
-    background-image:
+
+.about-section {
+background-color: var(--text);
+ background-image:
         linear-gradient(
             rgba(16, 36, 58, 0.80),
             rgba(16, 36, 58, 0.80)
@@ -250,10 +252,6 @@ nav a:hover {
 
     padding: 80px 8%;
     color: rgb(202, 51, 51);
-}
-
-.about-section {
-background-color: var(--text);
 }
 .about-content {
  display: grid;
