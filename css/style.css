@@ -89,8 +89,8 @@ nav a:hover {
  ),
  linear-gradient(
  135deg,
- #f4f8fc,
- #ffffff 65%
+ #50c541,
+ #d64848 65%
  );
  padding: 80px 0;
 
@@ -112,7 +112,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
 
-    color: white;
+    color: rgb(202, 98, 98);
 }
 
 .hero-content {
