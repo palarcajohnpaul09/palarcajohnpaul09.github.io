@@ -305,7 +305,19 @@ background-color: var(--text);
 }
 
 .skills-section {
- background-color: var(--background);
+ background-image:
+        linear-gradient(
+            rgba(16, 36, 58, 0.85),
+            rgba(16, 36, 58, 0.85)
+        ),
+        url("images/skillsbackground.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 80px 8%;
+    color: #0c0577;
 }
 .skills-grid {
  display: grid;
