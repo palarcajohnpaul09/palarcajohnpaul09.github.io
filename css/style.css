@@ -277,7 +277,7 @@ background-color: var(--text);
  border-radius: 14px;
 }
 .about h2 {
-    color: #ffffff;
+    color: #ffffff !important;
     font-size: 48px;
     font-weight: bold;
 }
