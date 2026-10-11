@@ -281,6 +281,9 @@ background-color: var(--text);
  font-size: 1.65rem;
  margin-bottom: 20px;
 }
+.about-text h1 {
+ color: var(--teal-dark);
+}
 .about-text p {
  color: var(--muted);
  font-size: 15px;
