@@ -236,6 +236,22 @@ nav a:hover {
  margin-bottom: 12px;
 }
 
+.about {
+    background-image:
+        linear-gradient(
+            rgba(16, 36, 58, 0.80),
+            rgba(16, 36, 58, 0.80)
+        ),
+        url("images/about-background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 80px 8%;
+    color: white;
+}
+
 .about-section {
  background-color: var(--white);
 }
