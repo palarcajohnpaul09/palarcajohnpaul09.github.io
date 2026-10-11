@@ -273,11 +273,11 @@ background-color: var(--text);
  width: 100%;
  height: 390px;
  object-fit: cover;
- object-position: center;
+ object-position: left;
  border-radius: 14px;
 }
 .about-text h3 {
- color: var(--navy);
+ color: var(--teal-dark);
  font-size: 1.65rem;
  margin-bottom: 20px;
 }
