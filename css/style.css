@@ -253,7 +253,7 @@ nav a:hover {
 }
 
 .about-section {
-background-color: var(--white);
+background-color: var(--text);
 }
 .about-content {
  display: grid;
